@@ -7,4 +7,4 @@ https://www.npmjs.com/package/phonegap-plugin-barcodescanner
 I wrote this because i couldn't find an App that just scans a code of any type and lets me do what i want with it without nagging with ads
 or spying on me.
 
-ReScan uses Plain Javascript, HTML, CSS, Cordova with barcodescanner (for the scanning), device (for feature detection) and socialmedia (for intent based sharing of scanned items) plugins and the Yeti-Themed Bootstrap CSS Toolbox from http://bootswatch.com/yeti/
+ReScan uses Cordova with barcodescanner (for the scanning), device (for feature detection) and socialmedia (for intent based sharing of scanned items) plugins and the Yeti-Themed Bootstrap CSS Toolbox from Bootswatch (http://bootswatch.com/yeti/). The icons come from the most Awesome Icon Collection: Font-Awesome (http://fontawesome.io).
