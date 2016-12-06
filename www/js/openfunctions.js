@@ -17,7 +17,7 @@ var op = {
 
   inBrowser: function() {
     try {
-      var content = encodeURIComponent(document.getElementById('content').innerHTML);
+      var content = document.getElementById('content').innerHTML;
       window.open(content, '_system');
     } catch(e) {}
   },
