@@ -1,4 +1,4 @@
-[icon.png]
+![ReScan](icon.png)
 # ReScan
 ReScan is a simple QR-Code Scanner without ads, without flaws, opensource and simple to use. One Page App.
 
