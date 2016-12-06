@@ -1,4 +1,6 @@
 #!/bin/bash
+cordova-icon
+
 cordova build android --release
 
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk alias_name
