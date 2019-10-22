@@ -1,28 +1,28 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.managementspielzeug.rescan"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-social-message": {
+      "PACKAGE_NAME": "com.managementspielzeug.rescan"
     },
-    "installed_plugins": {
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.managementspielzeug.rescan"
-        },
-        "cordova-plugin-social-message": {
-            "PACKAGE_NAME": "com.managementspielzeug.rescan"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.managementspielzeug.rescan"
-        },
-        "phonegap-plugin-barcodescanner": {
-            "PACKAGE_NAME": "com.managementspielzeug.rescan"
-        }
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.managementspielzeug.rescan"
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.managementspielzeug.rescan"
-        }
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.managementspielzeug.rescan"
     }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.managementspielzeug.rescan"
+    }
+  }
 }

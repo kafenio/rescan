@@ -1,0 +1,14 @@
+{
+  "devDependencies": {},
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-social-message": {},
+      "phonegap-plugin-barcodescanner": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
