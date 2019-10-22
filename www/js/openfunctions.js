@@ -15,13 +15,6 @@ var op = {
     } catch(e) {}
   },
 
-  inBrowser: function() {
-    try {
-      var content = document.getElementById('content').innerHTML;
-      window.open(content, '_system');
-    } catch(e) {}
-  },
-
   intent: function() {
     var message = { text: "Ein Link: "+document.getElementById('content').innerHTML };
     var has_intents = false;

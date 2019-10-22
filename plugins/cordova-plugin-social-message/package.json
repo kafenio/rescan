@@ -1,27 +1,31 @@
 {
-  "_from": "cordova-plugin-social-message@^0.4.0",
+  "_args": [
+    [
+      "cordova-plugin-social-message@0.4.0",
+      "/Users/pawlikk/code/rescan"
+    ]
+  ],
+  "_from": "cordova-plugin-social-message@0.4.0",
   "_id": "cordova-plugin-social-message@0.4.0",
   "_inBundle": false,
   "_integrity": "sha1-5drdnP/DKhrOTUizUaf82y6aefk=",
   "_location": "/cordova-plugin-social-message",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-social-message@^0.4.0",
+    "raw": "cordova-plugin-social-message@0.4.0",
     "name": "cordova-plugin-social-message",
     "escapedName": "cordova-plugin-social-message",
-    "rawSpec": "^0.4.0",
+    "rawSpec": "0.4.0",
     "saveSpec": null,
-    "fetchSpec": "^0.4.0"
+    "fetchSpec": "0.4.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-social-message/-/cordova-plugin-social-message-0.4.0.tgz",
-  "_shasum": "e5dadd9cffc32a1ace4d48b351a7fcdb2e9a79f9",
-  "_spec": "cordova-plugin-social-message@^0.4.0",
+  "_spec": "0.4.0",
   "_where": "/Users/pawlikk/code/rescan",
   "author": {
     "name": "Lee Crossley",
@@ -31,7 +35,6 @@
   "bugs": {
     "url": "https://github.com/leecrossley/cordova-plugin-social-message/issues"
   },
-  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-social-message",
     "platforms": [
@@ -39,7 +42,6 @@
       "android"
     ]
   },
-  "deprecated": false,
   "description": "Cordova Social Message Plugin to utilise native share features. Share text, images and urls to Facebook, Twitter and more.",
   "engines": [
     {
