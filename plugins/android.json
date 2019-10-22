@@ -16,6 +16,9 @@
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "com.managementspielzeug.rescan"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.managementspielzeug.rescan"
     }
   },
   "dependent_plugins": {}

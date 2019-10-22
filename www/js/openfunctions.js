@@ -10,7 +10,7 @@ var op = {
   searchGoogle: function() {
     try {
       var content = encodeURIComponent(document.getElementById('content').innerHTML),
-          url = "https://www.google.de/#q="+content;
+          url = "https://www.google.de/search?q="+content;
       window.open(url, '_system');
     } catch(e) {}
   },
