@@ -1,8 +1,37 @@
 {
-  "name": "cordova-plugin-social-message",
-  "version": "0.4.0",
-  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
-  "description": "Cordova Social Message Plugin to utilise native share features. Share text, images and urls to Facebook, Twitter and more.",
+  "_from": "cordova-plugin-social-message@^0.4.0",
+  "_id": "cordova-plugin-social-message@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha1-5drdnP/DKhrOTUizUaf82y6aefk=",
+  "_location": "/cordova-plugin-social-message",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-social-message@^0.4.0",
+    "name": "cordova-plugin-social-message",
+    "escapedName": "cordova-plugin-social-message",
+    "rawSpec": "^0.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.4.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-social-message/-/cordova-plugin-social-message-0.4.0.tgz",
+  "_shasum": "e5dadd9cffc32a1ace4d48b351a7fcdb2e9a79f9",
+  "_spec": "cordova-plugin-social-message@^0.4.0",
+  "_where": "/Users/pawlikk/code/rescan",
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-social-message/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-social-message",
     "platforms": [
@@ -10,10 +39,15 @@
       "android"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leecrossley/cordova-plugin-social-message.git"
-  },
+  "deprecated": false,
+  "description": "Cordova Social Message Plugin to utilise native share features. Share text, images and urls to Facebook, Twitter and more.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/leecrossley/cordova-plugin-social-message#readme",
   "keywords": [
     "cordova",
     "social",
@@ -27,15 +61,11 @@
     "cordova-ios",
     "cordova-android"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/leecrossley/cordova-plugin-social-message/issues"
+  "name": "cordova-plugin-social-message",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-social-message.git"
   },
-  "homepage": "https://github.com/leecrossley/cordova-plugin-social-message#readme"
+  "version": "0.4.0"
 }

@@ -2,13 +2,20 @@
   "devDependencies": {},
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},
       "cordova-plugin-social-message": {},
-      "phonegap-plugin-barcodescanner": {}
+      "phonegap-plugin-barcodescanner": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      }
     },
     "platforms": [
       "android"
     ]
+  },
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-social-message": "^0.4.0",
+    "phonegap-plugin-barcodescanner": "^8.1.0"
   }
 }

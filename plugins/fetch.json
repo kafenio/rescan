@@ -1,42 +1,26 @@
 {
-    "phonegap-plugin-barcodescanner": {
-        "source": {
-            "type": "registry",
-            "id": "phonegap-plugin-barcodescanner"
-        },
-        "is_top_level": true,
-        "variables": {}
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@^2.0.3"
     },
-    "cordova-plugin-whitelist": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-social-message": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-social-message@^0.4.0"
     },
-    "cordova-plugin-compat": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-compat"
-        },
-        "is_top_level": false,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "phonegap-plugin-barcodescanner": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-barcodescanner@^8.1.0"
     },
-    "cordova-plugin-social-message": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-social-message"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-device": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-device"
-        },
-        "is_top_level": true,
-        "variables": {}
-    }
+    "is_top_level": true,
+    "variables": {}
+  }
 }
