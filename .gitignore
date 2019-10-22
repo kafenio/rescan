@@ -3,3 +3,4 @@ platforms
 rescan.apk
 rescan_zalign.apk
 .DS_Store
+node_modules
