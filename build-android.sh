@@ -2,7 +2,7 @@
 
 rm -f rescan.apk rescan_zalign.apk
 
-cordova-icon
+cordova-res
 
 cordova build android --release
 

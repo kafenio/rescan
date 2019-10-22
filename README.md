@@ -18,11 +18,11 @@ To build the app you need:
      http://blog.npmjs.org/post/85484771375/how-to-install-npm
      
      #cordova
-     sudo npm install -g cordova
+     npm install -g cordova
      see https://cordova.apache.org for details...
      
-     #cordova-icon 
-     sudo npm install cordova-icon -g
+     #cordova-res icon generator 
+     npm install cordova-res -g
      # ...which requires imagemagick (sorry):
      $ # on Linux: sudo apt-get install imagemagick
      $ # on Mac: brew install imagemagick
