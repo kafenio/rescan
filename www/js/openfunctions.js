@@ -27,6 +27,13 @@ var op = {
     }
   },
 
+  inBrowser: function() {
+    try {
+      var content = document.getElementById('content').innerHTML;
+      window.open(content, '_system');
+    } catch(e) {}
+  },
+
   mailto: function() {
     var subject= "Ein cooler Link";
     var body = "Der Link:\r\n\r\n<a href=\"";
